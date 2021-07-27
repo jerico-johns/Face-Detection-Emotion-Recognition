@@ -1,5 +1,6 @@
 # Using ubuntu 18.04 as base image
-FROM nvcr.io/nvidia/l4t-pytorch:r32.5.0-pth1.7-py3 
+#FROM nvcr.io/nvidia/l4t-pytorch:r32.5.0-pth1.7-py3 
+FROM nvcr.io/nvidia/l4t-pytorch:r32.4.4-pth1.6-py3
 # update the base image
 RUN apt-get update && apt-get -y update
 # install face_recognition
@@ -18,8 +19,17 @@ RUN apt -y install python3-opencv
 RUN pip3 install matplotlib
 RUN apt -y install vim
 
+
+#RUN pip3 install --upgrade pip
+#RUN apt update
+RUN apt install -y python3-dev python3-pip python3-opencv libopencv-dev
+RUN pip3 install Cython
+#RUN pip3 install numpy
+RUN pip3 install facenet-pytorch
+# RUN pip3 install mmcv
+
 # Added Jerico's libraries
-RUN pip3 install mmcv
+#RUN pip3 install mmcv
 #RUN pip3 install MTCNN
 
 # Optional for jupyter install
