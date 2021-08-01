@@ -26,17 +26,17 @@ The Github repository used is as follows:
 
 https://github.com/sudhrity/mids-w251-project 
 
-The directory structure and contents are shown in the images below
+The repository directory structure, files and high level descriptions are shown in the images below
+
+![this](folders_1.png)
+
+![this](folders_2.png)
+
+![this](folders_3.png)
 
 
 
 
-
-
-
-
-
-- checkpoint.pth.tar, model_best.pth.tar - Check point files
 
 
 
