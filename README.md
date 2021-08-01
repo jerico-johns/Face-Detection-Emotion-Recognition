@@ -4,13 +4,13 @@
 
 
 
-#### **Team: **
+#### Team
 
 ###### Diana Chacon, Jerico Johns, Josh Jonte, Sudhrity Mondal
 
 #### **Class: W251-2 Tuesday 2:00 PM** 
 #### **Semester: Summer 2021**
-#### **Professor(s): **
+#### Professors:
 
 ###### **Darragh Hanley & Brad DesAulniers**
 
@@ -36,12 +36,13 @@ The repository directory structure, files and high level descriptions are shown 
 
 
 
+The Project paper is available using the following link. https://github.com/sudhrity/mids-w251-project/blob/main/Real-Time%20Face%20%26%20Emotion%20Recognition%20using%20face%20images%20and%20Deep%20Learning%20-%20W251%20Final%20Project.pdf
 
 
 
 
-### Architecture
-The architecture used is resnet18.  
+
+
 
 
 
