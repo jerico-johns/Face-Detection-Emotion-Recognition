@@ -36,7 +36,7 @@ The repository directory structure, files and high level descriptions are shown 
 
 
 
-The Project paper is available using the following link. https://github.com/sudhrity/mids-w251-project/blob/main/Real-Time%20Face%20%26%20Emotion%20Recognition%20using%20face%20images%20and%20Deep%20Learning%20-%20W251%20Final%20Project.pdf
+The Project paper is available using the following link - https://github.com/sudhrity/mids-w251-project/blob/main/Real_Time_Face_%26_Emotion_Recognition_using_Deep%20Learning_W251_Final_Project_Paper.pdf
 
 
 
