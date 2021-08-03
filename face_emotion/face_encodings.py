@@ -51,8 +51,8 @@ catherine_face_encoding = face_recognition.face_encodings(catherine_image)[0]
 brad_image = face_recognition.load_image_file("../data/face/images.m1/brad_desaulniers.jpg")
 brad_face_encoding = face_recognition.face_encodings(brad_image)[0]
 # Load another sample picture and learn how to recognize it.
-alice_image = face_recognition.load_image_file("../data/face/images.m1/alice_hua.jpg")
-alice_face_encoding = face_recognition.face_encodings(alice_image)[0]
+diana2_image = face_recognition.load_image_file("../data/face/images.m1/diana_chacon2.jpg")
+diana2_face_encoding = face_recognition.face_encodings(diana2_image)[0]
 
 
 # Create arrays of known face encodings and their names
@@ -69,7 +69,7 @@ known_face_encodings = [
     divesh_face_encoding,
     catherine_face_encoding,
     brad_face_encoding,
-    alice_face_encoding
+    diana2_face_encoding
 ]
 known_face_names = [
     "Barack Obama",
@@ -84,7 +84,7 @@ known_face_names = [
     "Divesh Kumar",
     "Catherine Mou",
     "Brad Desaulniers",
-    "Alice Hua"
+    "Alice from Wonderland"
 ]
 
 # Initialize some variables
